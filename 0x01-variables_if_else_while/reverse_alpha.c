@@ -2,13 +2,13 @@
 
 int main(void)
 {
-	int digit = 48;
+	int letter = 122;
 
-	while (digit <= 57)
+	while (letter >= 97)
 	{
-		putchar(digit);
+		putchar(letter);
 
-		digit++;
+		letter--;
 	}
 
 	putchar('\n');
