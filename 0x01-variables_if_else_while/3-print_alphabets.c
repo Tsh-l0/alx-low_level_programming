@@ -7,7 +7,7 @@
 int main(void)
 {
 	char ch;
-	
+
 	/* This loops through the lowercase alphabet */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
@@ -19,6 +19,6 @@ int main(void)
 	       putchar(ch); /* Prints the uppercase alphabet */
 	}
 	putchar('\n'); /* Prints a new line */
-	
+
 	return (0);
 }
