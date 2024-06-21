@@ -12,12 +12,8 @@ int main(void)
 	/* Loop until digit is <= 9 */
 	while (digit <= 9)
 	{
-		/* Check if digit < 9 */
-		if (digit < 9)
-		{
-			printf("%d", digit); /* Print digit */
-		}
-
+		printf("%d", digit); /* Print digit */
+		
 		digit++; /* Increase digit to next number */
 	}
 
