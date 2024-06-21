@@ -10,14 +10,14 @@
 int main(void)
 {
         int n;
-	int last_digit; // Declare all variables at the beginning
+	int last_digit; /*Declare all variables at the beginning*/
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
 
-        last_digit = n % 10; // Calculate the last digit of n
+        last_digit = n % 10; /* Calculate the last digit of n */
 
-	// Print the last digit of the generated number
+	/* Print the last digit of the generated number */
 	printf("Last digit of %d is %d ", n, last_digit);
 
         if (last_digit > 5)
