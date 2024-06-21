@@ -13,9 +13,11 @@ int main(void)
 	while (digit <= 9)
 	{
 		printf("%d", digit); /* Print digit */
-		
+
 		digit++; /* Increase digit to next number */
 	}
+
+	putchar('\n'); /* Print new line */
 
 	return (0);
 }
