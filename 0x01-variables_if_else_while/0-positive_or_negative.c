@@ -1,33 +1,30 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* These are headers, they are similar to python imports
- * stdio.h is necessary for the printf function
- */
 
-/* betty style doc for function main goes there */
+/**
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int n;
 
     srand(time(0));
     n = rand() - RAND_MAX / 2;
-
-/* My code*/
-    printf("The number %d ", n); /*print the generated number*/
-
-    if (n >= 0) /*Criteria for positive numbers*/
+    printf("The number %d ", n);
+    if (n >= 0)
     {
-            printf("The number is positive\n");
+            printf("is positive\n");
     }
-    else if (n == 0) /*Criteria for zero*/
+    else if (n == 0)
     {
-            printf("The number is zero\n");
+            printf("is zero\n");
     }
-    else /* Criteria for negative numbers*/
+    else
     {
-            printf("The number is negative\n");
+            printf("is negative\n");
     }
-
     return (0);
 }
