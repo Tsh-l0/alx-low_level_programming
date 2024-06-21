@@ -10,13 +10,16 @@
 int main(void)
 {
         int n;
+	int last_digit; // Declare all variables at the beginning
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
 
-        int last_digit = n % 10;
+        last_digit = n % 10; // Calculate the last digit of n
 
-        printf("Last digit of %d is %d ", n, last_digit);
+	// Print the last digit of the generated number
+	printf("Last digit of %d is %d ", n, last_digit);
+
         if (last_digit > 5)
         {
                 printf("and is greater than 5\n");
