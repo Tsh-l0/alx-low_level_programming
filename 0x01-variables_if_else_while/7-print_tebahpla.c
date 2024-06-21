@@ -1,21 +1,23 @@
-#include <stdio.h> /* Enable putchar function */
+#include<stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: Print the lowercase alphabet backwards and a new line
+ * Description: print a-z in reverse
  *
- * Return : Always 0 (Success)
- */
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int letter = 122; /* ASCII value of 'z' */
+	char ch = 'z';
 
-	while (letter >= 97) /* ASCII value of 'a' */
+	while (ch >= 'a')
 	{
-		putchar(letter); /* print the letter of the alphabet */
-		letter--; /* Move from the letter highest in order to the one lowest in order */
+		putchar(ch);
+		--ch;
 	}
-	putchar('\n'); /*Print new line */
+	putchar('\n');
+
 	return (0);
 }
