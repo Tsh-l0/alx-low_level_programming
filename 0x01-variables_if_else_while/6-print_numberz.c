@@ -1,5 +1,10 @@
 #include <stdio.h> /* Enable putchar function */
 
+/**
+ * main - prints all the single digit numbers of base 10 starting from 0
+ * Return: Always 0 (Success_
+ */
+
 int main(void)
 {
 	int digit = 48; /* ASCII value 0 */
