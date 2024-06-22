@@ -3,14 +3,14 @@
 /**
  * main - Entry point
  *
- * Description: Prints all the numbers of base 16 in lowercase followed by a new line
- * Only uses the putchar function 
+ * Description: Prints all the numbers of base 16 in lowercase
+ * Only uses the putchar function
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num = 0; 
+	int num = 0;
 
 	while (num < 16)
 	{
