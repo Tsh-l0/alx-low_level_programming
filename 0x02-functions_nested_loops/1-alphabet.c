@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
- * Description: Prints the alphabet in lowercase and ends on a new line
+ * print_alphabet - prints the alphabet in lowercase followed by new line
  *
- * Return: 0 Success
+ * Description: This funtion prints lowercase alphabet using -putchar twice
  */
 void print_alphabet(void)
 {
-	char alphabet[] = "abcdefghijklmopqrstuvwxyz\n";
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	/* Print each character in the alphabet array */
-	for (i = 0; alphabet[i] != '\0'; i++)
+	for (i = 0; i < 26; i++)
 	{
 		_putchar(alphabet[i]);
 	}
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	_putchar('\n');
 }
