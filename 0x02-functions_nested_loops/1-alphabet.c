@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * main - Entry point 
- *
  * Description: Prints the alphabet in lowercase and ends on a new line
  *
  * Return: 0 Success
