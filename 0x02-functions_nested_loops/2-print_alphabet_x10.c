@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 
 	for (j = 0; j < 10; j++) /* Print the alphabet x10 */
 	{
-		for ( i = 0; i < 26; i++) /* Print the alphabet */
+		for (i = 0; i < 26; i++) /* Print the alphabet */
 		{
 			_putchar(alphabet[i]);
 		}
