@@ -1,18 +1,26 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
+ * main - Entry point 
  *
- * @c: The character to be printe
+ * Description: Prints the alphabet in lowercase and ends on a new line
  *
- * This function writes the charater 'c' to the standard output. It is used to print a single character
- *
- * Return:
- * On success, 1 is returned
- * On error, -1 is returned
+ * Return: 0 Success
  */
-int _putchar(char c)
+void print_alphabet(void)
 {
-	return (write(1, &c, 1));
+	char alphabet[] = "abcdefghijklmopqrstuvwxyz\n";
+	int i;
+
+	/* Print each character in the alphabet array */
+	for (i = 0; alphabet[i] != '\0'; i++)
+	{
+		_putchar(alphabet[i]);
+	}
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
