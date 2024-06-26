@@ -20,6 +20,6 @@ int _isalpha(int c);
 int print_sign(int n);
 
 /* Computes the absolute value of an integer */
-int _abs(int)
+int _abs(int);
 
 #endif 
