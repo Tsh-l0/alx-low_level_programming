@@ -15,26 +15,32 @@ void times_table(void)
 
 			/* Print the result with properformatting */
 			if (column == 0)
-				_putchar('0');
-			else
-				_putchar(',');
-
-			if (result < 10 && column > 0)
-				_putchar(' ');
-
-			if (result < 10)
-				_putchar(' ');
-
-			if (result >= 10)
-				_putchar((result / 10) + '0');
-
-			_putchar((result % 10) + '0');
-
-			/* Print comma and space */
-			if (column < 9)
 			{
+				_putchar('0');
 				_putchar(',');
 				_putchar(' ');
+			}
+			else
+			{
+				if (result < 10)
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(result + '0');
+				}
+
+				else
+				{
+					_putcchar(' ');
+					_putchar((result / 10) + '0');
+					_putchar((result % 10) + '0');
+				}
+
+				if (column < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
