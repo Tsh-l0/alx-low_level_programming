@@ -9,10 +9,10 @@ void jack_bauer(void)
 
 	for (hour = 0; hour < 24; hour++)
 	{
-		for (minute = 0; minute <= 60; minute ++)
+		for (minute = 0; minute < 60; minute++)
 		{
 			int hour_first_digit = hour / 10;
-			int hour_second_digit = hour %10;
+			int hour_second_digit = hour % 10;
 			int minute_first_digit = minute / 10;
 			int minute_second_digit = minute % 10;
 
