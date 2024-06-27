@@ -3,3 +3,6 @@ int _isupper(int c);
 
 /* Checks for digit between 0 and 9 */
 int _isdigit(int c);
+
+/* Multiply two integers */
+int mul(int a, int b);
