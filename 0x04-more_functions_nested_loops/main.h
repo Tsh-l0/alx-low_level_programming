@@ -13,3 +13,6 @@ int _putchar(char c);
 
 /* Print 0 - 9 without 2 and 4 */
 void print_most_numbers(void);
+
+/* Print 0 to 14 ten times */
+void more_numbers(void);
