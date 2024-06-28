@@ -10,3 +10,6 @@ int mul(int a, int b);
 /* Print 0 to 9 */
 void print_numbers(void);
 int _putchar(char c);
+
+/* Print 0 - 9 without 2 and 4 */
+void print_most_numbers(void);
