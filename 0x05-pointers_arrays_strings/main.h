@@ -9,6 +9,7 @@ int _strlen(char *s);
 
 /* Print a string to stdout */
 void _puts(char *str);
+int _putchar(char c);
 
 /* Print a string in reverse */
 void print_rev(char *s);
