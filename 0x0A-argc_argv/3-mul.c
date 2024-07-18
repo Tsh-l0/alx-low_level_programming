@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	else
 	{
-		multiple_arg = atoi(argv[1]) * atoi(argv[2]);
+		multiple_arg = (atoi(argv[1]) * atoi(argv[2]));
 		printf("%d\n", multiple_arg);
 	}
 
