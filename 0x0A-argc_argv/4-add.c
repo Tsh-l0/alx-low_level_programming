@@ -1,13 +1,14 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
 
 /**
- * is_digit - Verifies if a string is only digits
- * @str: The string to verify
+ * isNum - Verifies if a string is only digits
+ * @num: The string to verify
  *
- * Return: 1 if str is only digits, 0 on failure
+ * Return: 0 if str is only digits, 1 on failure
  */
 int isNum(char num[])
 {
