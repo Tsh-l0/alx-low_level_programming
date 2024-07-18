@@ -13,27 +13,24 @@
 int *array_range(int min, int max)
 {
 	int *pntrr;
-	int int_arry;
+	int int_arry, size;
 
 	if (min > max)
 	{
 		return (NULL);
 	}
 
-	pntrr = malloc(sizeof(int) * (max - min));
+	size = max - min + 1;
+	pntrr = malloc(sizeof(int) * size);
 
 	if (pntrr == NULL)
 	{
 		return (NULL);
 	}
 
-	int_arry = 0;
-
-	while (min <= max)
+	for (int_arry = 0; min <= max; int_arry++, min++)
 	{
 		pntrr[int_arry] = min;
-		min++;
-		int_arry++;
 	}
 
 	return (pntrr);
