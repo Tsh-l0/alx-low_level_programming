@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * string_noncat - Concatenates two strings 
@@ -9,7 +10,7 @@
  *
  * Return: NULL if function fails
  */
-char *string_noncat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int str_len1 = 0, str_len2 = 0, a, b;
 	char *concat_str;
