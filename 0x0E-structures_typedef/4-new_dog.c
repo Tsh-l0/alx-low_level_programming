@@ -4,7 +4,7 @@
 /**
  * _strlen - A function that returns the length of a string
  *
- * @str: The string whose length to be found 
+ * @str: The string whose length to be found
  *
  * Return: Length of the st dunction
  */
