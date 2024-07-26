@@ -5,7 +5,7 @@
  * main - Prints own opcodes.
  * @argc: The number of arguments
  * @argv: The array of arguments
- * Returns: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(int argc, char *argv[])
 {
