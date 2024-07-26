@@ -6,8 +6,9 @@
  * print_numbers - Prints numbers and a new line
  *
  * @n: The number of integers passed
- * @seperator: The string to be printed between the numbers
- * 
+ * @separator: The string to be printed
+ * between the numbers
+ *
  * Return: 0 (Success)
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
