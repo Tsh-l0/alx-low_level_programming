@@ -18,11 +18,11 @@ void print_binary(unsigned long int n)
 		putchar('0');
 		return;
 	}
-	
+
 	/* Skip leading 0s */
 	while (bit_mask > n)
 		bit_mask >>= 1;
-	
+
 	/* Print each bit */
 	while (bit_mask > 0)
 	{
